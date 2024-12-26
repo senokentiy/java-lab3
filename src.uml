@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/home/cain/IdeaProjects/java_lab3/src</OriginalElement>
+  <nodes>
+    <node x="716.203552677407" y="831.0247364336598">classes.Ring</node>
+    <node x="728.2958354910536" y="573.879674308371">interfaces.Speaker</node>
+    <node x="450.53428103098736" y="545.5195500416553">interfaces.Grabber</node>
+    <node x="-55.69871264912163" y="1299.3719160177495">interfaces.Proposer</node>
+    <node x="779.4171000170346" y="716.7646019057281">interfaces.SizeGenerator</node>
+    <node x="264.81844118246454" y="1553.6803009201165">classes.King</node>
+    <node x="205.67229621017054" y="695.8307061129877">classes.Inventory</node>
+    <node x="199.78289443439218" y="1717.5856528059796">exceptions.IllegalDecree</node>
+    <node x="176.35367060164242" y="42.72221723981093">classes.Entity</node>
+    <node x="444.3864044410059" y="183.71068820042785">classes.Item</node>
+    <node x="551.2100232961288" y="689.4642807682411">interfaces.Looker</node>
+    <node x="-28.21440546485539" y="1844.1086188556671">Main</node>
+    <node x="744.2394304739082" y="1642.9256317680051">classes.Decree</node>
+    <node x="-56.42446853277568" y="1425.5987844796493">classes.Male</node>
+    <node x="-102.91376638274329" y="927.3139278387102">classes.Human</node>
+    <node x="536.6834651148115" y="1472.366133873284">interfaces.DecreeMaker</node>
+    <node x="-73.50126544691426" y="707.6955308810751">enums.Mood</node>
+    <node x="253.83740710793154" y="1101.3994207357216">classes.Female</node>
+    <node x="145.64042207842675" y="509.8749889538068">classes.DynamicItem</node>
+    <node x="568.9230522641386" y="-13.279335757169633">enums.Material</node>
+    <node x="241.58414561881585" y="1411.3543579861891">exceptions.IllegalPeopleNumber</node>
+    <node x="528.9162651643321" y="1311.1899187069753">interfaces.PeopleSender</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="classes.Human" target="interfaces.Grabber" relationship="REALIZATION">
+      <point x="108.5" y="-88.78919140505059" />
+      <point x="533.7100232961288" y="983.5247364336597" />
+      <point x="-25.32425773485852" y="38.5" />
+    </edge>
+    <edge source="classes.Ring" target="classes.DynamicItem" relationship="GENERALIZATION">
+      <point x="97.0" y="0.0" />
+      <point x="957.9171000170346" y="918.5247364336598" />
+      <point x="957.9171000170346" y="513.0195500416553" />
+      <point x="118.0" y="-47.8554389121515" />
+    </edge>
+    <edge source="classes.Human" target="interfaces.Looker" relationship="REALIZATION">
+      <point x="108.5" y="-44.999927838710164" />
+      <point x="633.2100232961288" y="1027.314" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Main" target="classes.Male" relationship="CREATE">
+      <point x="7.789936932079712" y="-39.5" />
+      <point x="0.0" y="99.0" />
+    </edge>
+    <edge source="classes.Human" target="classes.Entity" relationship="GENERALIZATION">
+      <point x="-96.58723361725671" y="-144.99992783871028" />
+      <point x="-91.001" y="343.5" />
+      <point x="414.0" y="343.5" />
+      <point x="414.0" y="130.222" />
+      <point x="97.00032939835756" y="-2.17239810922365E-4" />
+    </edge>
+    <edge source="classes.Male" target="classes.Human" relationship="GENERALIZATION">
+      <point x="118.00046853277567" y="2.1552035059357877E-4" />
+      <point x="211.0" y="1524.599" />
+      <point x="211.0" y="1072.314" />
+      <point x="108.4997663827433" y="7.216128983600356E-5" />
+    </edge>
+    <edge source="classes.Item" target="classes.Entity" relationship="GENERALIZATION">
+      <point x="-104.00040444100586" y="3.1179957215954346E-4" />
+      <point x="414.0" y="328.711" />
+      <point x="414.0" y="130.222" />
+      <point x="97.00032939835756" y="-2.17239810922365E-4" />
+    </edge>
+    <edge source="classes.Human" target="classes.Inventory" relationship="TO_ONE">
+      <point x="27.41250093582903" y="-145.0" />
+      <point x="32.99873455308574" y="827.1955308810751" />
+      <point x="-103.5" y="34.364824768087374" />
+    </edge>
+    <edge source="classes.Ring" target="interfaces.SizeGenerator" relationship="REALIZATION">
+      <point x="4.4732259300417354E-4" y="-87.49973643365979" />
+      <point x="813.204" y="801.0" />
+      <point x="859.917" y="801.0" />
+      <point x="-1.0001703458328848E-4" y="27.000398094271873" />
+    </edge>
+    <edge source="classes.Male" target="interfaces.Proposer" relationship="REALIZATION">
+      <point x="0.7257558836540454" y="-99.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Main" target="classes.King" relationship="CREATE">
+      <point x="22.789936932079712" y="-39.5" />
+      <point x="76.57553146722432" y="1641.0987844796493" />
+      <point x="-105.5" y="36.41848355953289" />
+    </edge>
+    <edge source="classes.King" target="exceptions.IllegalPeopleNumber" relationship="CREATE">
+      <point x="-15.234295563648686" y="-51.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="classes.DynamicItem" target="classes.Item" relationship="GENERALIZATION">
+      <point x="0.0" y="-51.0" />
+      <point x="263.64042207842675" y="358.5" />
+      <point x="-104.0" y="29.789311799572147" />
+    </edge>
+    <edge source="classes.Human" target="interfaces.SizeGenerator" relationship="REALIZATION">
+      <point x="108.4997663827433" y="-14.999927838710164" />
+      <point x="698.704" y="1057.314" />
+      <point x="698.704" y="801.0" />
+      <point x="859.917" y="801.0" />
+      <point x="-1.0001703458328848E-4" y="27.000398094271873" />
+    </edge>
+    <edge source="classes.King" target="interfaces.DecreeMaker" relationship="REALIZATION">
+      <point x="105.5" y="15.0" />
+      <point x="642.1834651148115" y="1619.6803009201165" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="classes.King" target="interfaces.PeopleSender" relationship="REALIZATION">
+      <point x="105.5" y="0.0" />
+      <point x="508.31844118246454" y="1604.6803009201165" />
+      <point x="508.31844118246454" y="1338.1899187069753" />
+      <point x="-105.0" y="0.0" />
+    </edge>
+    <edge source="classes.Inventory" target="classes.DynamicItem" relationship="TO_MANY">
+      <point x="-45.53187413174379" y="-97.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="Main" target="classes.Female" relationship="CREATE">
+      <point x="82.0" y="0.0" />
+      <point x="905.7394304739082" y="1883.6086188556671" />
+      <point x="905.7394304739082" y="1173.8994207357216" />
+      <point x="97.0" y="-15.0" />
+    </edge>
+    <edge source="classes.Human" target="interfaces.Speaker" relationship="REALIZATION">
+      <point x="108.5" y="-29.999927838710164" />
+      <point x="663.2100232961288" y="1042.314" />
+      <point x="663.2100232961288" y="760.9642807682411" />
+      <point x="761.9171000170346" y="760.9642807682411" />
+      <point x="-39.37873547401898" y="27.0" />
+    </edge>
+    <edge source="classes.King" target="classes.Male" relationship="GENERALIZATION">
+      <point x="-105.5" y="0.0" />
+      <point x="118.0" y="80.08151644046711" />
+    </edge>
+    <edge source="Main" target="classes.Ring" relationship="CREATE">
+      <point x="0.0" y="39.5" />
+      <point x="53.78559453514461" y="1940.6086188556671" />
+      <point x="957.9171000170346" y="1940.6086188556671" />
+      <point x="957.9171000170346" y="933.5247364336598" />
+      <point x="97.0" y="15.0" />
+    </edge>
+    <edge source="Main" target="classes.Decree" relationship="CREATE">
+      <point x="37.78993693207971" y="-39.5" />
+      <point x="91.57553146722432" y="1682.4256317680051" />
+      <point x="-72.0" y="0.0" />
+    </edge>
+    <edge source="classes.Human" target="enums.Mood" relationship="TO_ONE">
+      <point x="12.41250093582903" y="-145.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="classes.Item" target="enums.Material" relationship="TO_ONE">
+      <point x="96.5" y="-145.0" />
+      <point x="-22.53664782313274" y="51.0" />
+    </edge>
+    <edge source="classes.Male" target="classes.Female" relationship="TO_ONE">
+      <point x="-118.0" y="0.0" />
+      <point x="-120.41376638274329" y="1524.5987844796493" />
+      <point x="-120.41376638274329" y="1234.8139278387102" />
+      <point x="-97.0" y="45.91450710298864" />
+    </edge>
+    <edge source="classes.Female" target="classes.Male" relationship="TO_ONE">
+      <point x="0.0" y="87.5" />
+      <point x="350.83740710793154" y="1382.6899187069753" />
+      <point x="77.30128735087837" y="1382.6899187069753" />
+      <point x="15.725755883654045" y="-99.0" />
+    </edge>
+    <edge source="classes.Female" target="classes.Human" relationship="GENERALIZATION">
+      <point x="-97.00040710793155" y="-4.2073572171830165E-4" />
+      <point x="211.0" y="1188.899" />
+      <point x="211.0" y="1072.314" />
+      <point x="108.4997663827433" y="7.216128983600356E-5" />
+    </edge>
+    <edge source="classes.Human" target="classes.Inventory" relationship="CREATE">
+      <point x="108.5" y="-103.78919140505059" />
+      <point x="309.17229621017054" y="968.5247364336597" />
+      <point x="0.0" y="97.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.5688291139240507" showDependencies="true" x="317.32684283727394" y="933.0" />
+  <SelectedNodes>
+    <node>interfaces.PeopleSender</node>
+    <node>interfaces.Grabber</node>
+    <node>classes.Female</node>
+    <node>exceptions.IllegalPeopleNumber</node>
+    <node>interfaces.Speaker</node>
+    <node>enums.Mood</node>
+    <node>classes.DynamicItem</node>
+    <node>classes.Ring</node>
+    <node>classes.Male</node>
+    <node>classes.Human</node>
+    <node>classes.Inventory</node>
+    <node>classes.Entity</node>
+    <node>enums.Material</node>
+    <node>exceptions.IllegalDecree</node>
+    <node>classes.King</node>
+    <node>classes.Decree</node>
+    <node>interfaces.Proposer</node>
+    <node>interfaces.Looker</node>
+    <node>interfaces.DecreeMaker</node>
+    <node>interfaces.SizeGenerator</node>
+    <node>Main</node>
+    <node>classes.Item</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
